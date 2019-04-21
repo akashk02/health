@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+
+        android:padding="8dp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/review_test_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acetone Ketone qualitative Urine" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/review_test_description"
+            android:paddingTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Test Detects the Presence of Ketones in Urine"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="right"
+
+
+        >
+
+        <TextView
+            android:id="@+id/review_test_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_alignParentLeft="true"
+
+            android:text="RS 500"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

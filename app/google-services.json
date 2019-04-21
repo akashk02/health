@@ -1,0 +1,266 @@
+{
+  "project_info": {
+    "project_number": "801698888317",
+    "firebase_url": "https://arkaahealthcare-6d550.firebaseio.com",
+    "project_id": "arkaahealthcare-6d550",
+    "storage_bucket": "arkaahealthcare-6d550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801698888317:android:040b8474ce67dd72",
+        "android_client_info": {
+          "package_name": "arkaa.health.user.arkaahealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801698888317-j73dlgpp26o50ro2geqdr3mu2m2cu49r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arkaa.health.user.arkaahealthcare",
+            "certificate_hash": "957f48fd3736802caa595b6629f23760b08bec7e"
+          }
+        },
+        {
+          "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVwwzI8scJ3mqJwiWZaLMC1jSo6aWJlNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "801698888317-4nkd7rorbcfpfl9vj87al0qt9bankd75.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.silkroutemedia.Chat"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801698888317:android:0763c45a4eb4be7a",
+        "android_client_info": {
+          "package_name": "arkaa.health.arkaa.aarkaa_doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801698888317-d8et8emggs2ad03t2i95uh7soej9i4sj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arkaa.health.arkaa.aarkaa_doctor",
+            "certificate_hash": "40b708a05c913d42b8ff1cf2369e223bbc09bd39"
+          }
+        },
+        {
+          "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVwwzI8scJ3mqJwiWZaLMC1jSo6aWJlNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "801698888317-4nkd7rorbcfpfl9vj87al0qt9bankd75.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.silkroutemedia.Chat"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801698888317:android:cac1796e4355014f",
+        "android_client_info": {
+          "package_name": "arkaa.health.arkaa.pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801698888317-d9qpagr0g33gkt4karum9kua0q76n28e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arkaa.health.arkaa.pharmacy",
+            "certificate_hash": "40b708a05c913d42b8ff1cf2369e223bbc09bd39"
+          }
+        },
+        {
+          "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVwwzI8scJ3mqJwiWZaLMC1jSo6aWJlNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "801698888317-4nkd7rorbcfpfl9vj87al0qt9bankd75.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.silkroutemedia.Chat"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801698888317:android:ab2c97a8500ae578",
+        "android_client_info": {
+          "package_name": "arkaa.health.user.arkaa_lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801698888317-gi6c5kou1465vgak230jao81vh8csel5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arkaa.health.user.arkaa_lab",
+            "certificate_hash": "957f48fd3736802caa595b6629f23760b08bec7e"
+          }
+        },
+        {
+          "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVwwzI8scJ3mqJwiWZaLMC1jSo6aWJlNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "801698888317-4nkd7rorbcfpfl9vj87al0qt9bankd75.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.silkroutemedia.Chat"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801698888317:android:7f1b92a877bd17c4",
+        "android_client_info": {
+          "package_name": "arkaa.health.user.arkaahealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801698888317-331ndcokosmdocjmv0qte99qgvjvkp10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arkaa.health.user.arkaahealthcare",
+            "certificate_hash": "957f48fd3736802caa595b6629f23760b08bec7e"
+          }
+        },
+        {
+          "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVwwzI8scJ3mqJwiWZaLMC1jSo6aWJlNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801698888317-58dhr5a6iu1nrkv324hnc5qfetru9gmb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "801698888317-4nkd7rorbcfpfl9vj87al0qt9bankd75.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.silkroutemedia.Chat"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

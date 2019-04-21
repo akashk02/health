@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.sourcey.materiallogindemo.doctor">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            card_view:cardCornerRadius="4dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:paddingRight="8dp">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:orientation="vertical"
+                            android:paddingLeft="8dp">
+
+                            <TextView
+                                android:id="@+id/lab_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Zeon Laboratores Pvt Ltd."
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp">
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:src="@drawable/ic_location_on_black_24dp" />
+
+                                <TextView
+                                    android:id="@+id/lab_address"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="8dp"
+                                    android:text="Shop No 03,Kaveri Apt,Stn Road,Lodha complex" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_local_phone_black_24dp" />
+
+                                <TextView
+                                    android:id="@+id/lab_contact_no"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="8dp"
+                                    android:text="9202562520" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_perm_identity_black_24dp" />
+
+                                <TextView
+                                    android:id="@+id/lab_id"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="8dp"
+                                    android:text="ID: 56321452" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_payment_black_24dp" />
+
+                                <TextView
+                                    android:id="@+id/payment_type"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="8dp"
+                                    android:text="Cash,Credit and Debit Cards" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/lab" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_access_time_black_24dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/monday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:text="Monday       (9:00 am - 9:00 pm)" />
+
+                        <TextView
+                            android:id="@+id/tuesday"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:paddingLeft="8dp"
+                            android:text="Tuesday      (9:00 am - 9:00 pm)" />
+
+                        <TextView
+                            android:id="@+id/wednesday"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:paddingLeft="8dp"
+                            android:text="Wednesday (9:00 am - 9:00 pm)" />
+
+                        <TextView
+                            android:id="@+id/thrusday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+
+                            android:paddingLeft="8dp"
+                            android:text="Thrusday     (9:00 am - 9:00 pm)" />
+
+                        <TextView
+                            android:id="@+id/friday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+
+                            android:paddingLeft="8dp"
+                            android:text="Friday           (9:00 am - 9:00 pm)" />
+
+                        <TextView
+                            android:id="@+id/saturday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:paddingLeft="8dp"
+
+                            android:text="Saturday      (9:00 am - 9:00 pm)" />
+
+                        <TextView
+                            android:id="@+id/sunday"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:paddingLeft="8dp"
+
+                            android:text="Sunday         (9:00 am - 9:00 pm)" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Home Service Charges: Rs. 150.00/-" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Home Collection Number: 9025654565" />
+
+                <Button
+                    android:id="@+id/start_adding_your_tests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/red"
+                    android:text="start adding your tests"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/view_all_tests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="View all tests"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Facilities"
+                    android:textSize="20sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Parking available" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="E-Reports available" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Card accepted" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                    <Button
+                        android:id="@+id/book_now_upload_prescription"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/red"
+                        android:text="Book Now"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/book_now"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/red"
+                    android:text="Book now"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/send_prescription"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/red"
+                    android:text="upload prescription"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

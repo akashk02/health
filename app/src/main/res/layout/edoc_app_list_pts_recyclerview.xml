@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/doctor_profile_pic"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/profile"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp">
+
+                    <TextView
+                        android:id="@+id/e_pts_doctor_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr Ganesh Avhad"/>
+
+                    <TextView
+                        android:id="@+id/e_pts_doctor_education"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="MBBS"/>
+
+
+
+
+                    <TextView
+                        android:id="@+id/e_pts_doctor_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Worli,Mumbai"/>
+
+                    <TextView
+                        android:id="@+id/e_pts_doctor_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ID: 85648596"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/e_pts_doctor_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="4dp"
+                            android:paddingTop="4dp"
+                            android:text="17/04/18"
+                            android:textColor="#F44336"/>
+
+
+                        <TextView
+                            android:id="@+id/e_pts_doctor_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#F44336"
+
+                            android:text="  9.30 am"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#F44336"
+
+                        android:text="222 likes"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/e_pts_viewdetails_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#F44336"
+                android:layout_gravity="right"
+                android:text="view details"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/confirm_n_pay"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F44336"
+                    android:text="Confirm and pay"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <Button
+                    android:id="@+id/e_pts_viewdetails_button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F44336"
+                    android:text="view details"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="DuplicateIds" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

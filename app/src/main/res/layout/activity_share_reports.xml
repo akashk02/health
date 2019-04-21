@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        >
+
+        <!--<Button
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/buttonChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Photo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:id="@+id/notification"
+            android:text="No file is selected"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/pat_count"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/doc_count"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:id="@+id/buttonCamera"/>
+
+
+
+        <Button
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Photo"
+            android:id="@+id/buttonUpload"/>
+    -->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="You can also start by uploading a photo of your report"
+            android:textSize="25sp"/>
+
+        <!--<Button
+            android:id="@+id/buttonChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Photo From GALLERY"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/dialogSuccessBackgroundColor"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take a Picture From Camera"
+            android:id="@+id/buttonCamera"
+            android:backgroundTint="@color/dialogSuccessBackgroundColor"
+            android:textColor="@color/white"/>
+
+    -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/buttonCamera"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                card_view:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/ic_photo_camera_black_24dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/uploadFromGalleryTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose Reports From Gallery"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/buttonChoose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                card_view:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_folder_shared_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose Reports From Inbox"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:id="@+id/notification"
+            android:text="No file is selected"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/descriptionCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <EditText
+
+                android:id="@+id/pat_count"
+
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="15dp"
+
+                android:layout_marginBottom="20dp"
+
+                android:layout_marginRight="15dp"
+
+
+                android:layout_width="match_parent"
+
+                android:layout_height="150dp"
+
+                android:ellipsize="start"
+
+                android:gravity="top|left"
+
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dp"
+
+                android:hint="Please Write Some Description"
+
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#E0E0E0"></View>
+
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEND Reports"
+            android:id="@+id/buttonUpload"
+            android:backgroundTint="#D50000"
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

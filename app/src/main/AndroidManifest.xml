@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?><!-- suppress AndroidDomInspection, AndroidDomInspection -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="arkaa.health.user.arkaahealthcare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".SinchVideoCall.SinchService" />
+        <service android:name=".SinchVideoCall.fcm.FcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.Activity.LoginActivityApp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Registration.Activity.SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassword.Activity.activity_forgot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassword.Activity.changePassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.FragmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Doctor.Activity.ListOfSpecialists"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Doctor.Activity.ListOfDoctors"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Doctor.Activity.DoctorsDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Doctor.Activity.schedule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy.Activity.ListOfPharmacies"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lab.Activity.lab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lab.Activity.lab_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".alliedServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".personal_care"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reminder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CurrentAppointments.Activities.currentAppointment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".order_history"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".consults"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registration.Activity.otp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lab.Activity.viewAllTest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inbox.prescriptions.Activity.ListOfPrescription"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassword.Activity.forgot_password_verification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChat.chatMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SinchVideoCall.MainActivityVideo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SinchVideoCall.IncomingCallScreenActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SinchVideoCall.CallScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SinchVideoCall.PlaceCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inbox.prescriptions.Activity.DisplayPrescription"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inbox.inboxMessages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy.Activity.PharmacyDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lab.Activity.Lab_Appointment_Booking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lab.Activity.LabConfirmAppointmentBooking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy.Activity.view_all_medicines"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy.Activity.PharmacyCart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy.Activity.PharmacyOrderDetails"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Inbox.LabAppointments.Activity.ListOfLabAppointments" />
+        <activity android:name=".Inbox.LabAppointments.Activity.LabAppointmentDetails" />
+        <activity android:name=".Inbox.PharmacyOrders.Activity.ListOfPharmacyOrders" />
+        <activity android:name=".Inbox.PharmacyOrders.Activity.PharmacyOrederDetails" />
+        <activity android:name=".Inbox.PharmacyOrders.Activity.ViewQuotation" />
+        <activity android:name=".Pharmacy.Activity.PharmacyOrderDetailsBeta" />
+        <activity android:name=".Pharmacy.Activity.PharmacyCartBeta" />
+        <activity android:name=".Inbox.LabAppointments.Activity.ViewLabQuotation" />
+        <activity android:name=".eHospital.Activities.eListOfHospitals" />
+        <activity android:name=".eHospital.Activities.eListOfDoctorCategories" />
+        <activity
+            android:name=".eHospital.Activities.eListOfDoctors"
+            android:label="List Of Hospitals" />
+        <activity android:name=".eHospital.Activities.EdoctorDetails" />
+        <activity android:name=".eHospital.Activities.EbookDoctorAppointment" />
+        <activity android:name=".EhospitalInbox.EDoctorPrescription.Activities.ElistOfPrescription" />
+        <activity android:name=".EhospitalInbox.EdoctorAppointmentPts.Activities.EdoctorAppointmentListPts" />
+        <activity android:name=".EhospitalInbox.EpharmacyOrders.Activities.EpharmacyQuote" />
+        <activity android:name=".EhospitalInbox.Activity.EinboxMessages" />
+        <activity android:name=".EhospitalInbox.Adapter.EinboxMessageAdapter" />
+        <activity android:name=".EhospitalInbox.EdoctorAppointmentPts.Activities.EdocAppDetailsPts" />
+        <activity android:name=".Inbox.LabReports.Activity.ListOfLabReports" />
+        <activity android:name=".Inbox.LabReports.Activity.LabReportsDedtail" />
+        <activity android:name=".CurrentAppointments.Activities.ShareReports" />
+        <activity android:name=".EhospitalInbox.ElistOfPts.Activity.ElistOfPts" />
+        <activity android:name=".EhospitalInbox.ELabAppointment.Activity.Elaborders" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_sKSHyyNW9lRx17" />
+
+        <activity android:name=".CurrentAppointmentsEhospital.EdoctorAppointment.Activity.ListOfDocAppointments" />
+        <activity android:name=".CurrentAppointmentsEhospital.EdoctorAppointment.Activity.DoctorDetail" />
+        <activity android:name=".Lab.Activity.LabConfirmAppointmentBookingBeta" />
+        <activity android:name=".Doctor.Activity.ViewAllClinics" />
+        <activity android:name=".FirebaseChat.chatMainActivityBeta" />
+        <activity android:name=".CurrentAppointmentsEhospital.EdoctorAppointment.Activity.ListOfEHosApp"></activity>
+    </application>
+
+</manifest>

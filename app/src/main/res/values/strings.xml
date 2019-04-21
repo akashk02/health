@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Patient</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="long_string">Aspira Pathlab and Diagnostics is an inventive venture in quality healthcare and the pioneer in comprehensive reliance on technological automation. Aspira offers wide ranging diagnostic services which assist in mapping the entire journey of a patient’s prognosis, remission and eventual recuperation. Booking appointments, Ordering tests at home, Monitoring test results and accessing one’s complete diagnostic history at the click of a button is now possible. </string>
+    <string name="personal_care">Our Personal Care staff provides special care to improve quality of life for both the patient and their loved ones to spend the time with each other.They are well qualified, licensed and trained to perform  all required procedures :</string>
+    <string name="icu">We offers a facility of bringing ICU at the ease of your home. Patients are taken care by a team of highly experienced multidisciplinary critical care team who are trained to adhere the strict guidelines and protocols while administering these services.Our icu staff are well qualified, licensed and trained to perform  all required medical procedures</string>
+    <string name="nutrition">If you are the person who has aging parents staying with them and is in search of someone who would always attend to them then you are at the right place. The care takers we source are trustworthy, kind and responsible. They take care of everything your elderly would need. It could be providing medicines on a regular basis, helping them move around the house, feeding them or be a good listener whenever needed. In fact, we believe in making a difference to every household through our commitment. A little love goes a long way.</string>
+    <string name="mobility">If you are the person who has ageing parents or someone physically disabled staying with them and is in search of someone who would always attend to them then you are at the right place. The care taker we source are trustworthy, kind and responsible. They take care of everything your elderly would need. It could be providing medicines on a regular basis, helping them move around the house, feeding them or be a good listener whenever needed.</string>
+    <string name="description">Magnetic resonance imaging (MRI) is a noninvasive medical test that physicians use to diagnose medical conditions...</string>
+
+
+    <string name="sign_out">Sign Out</string>
+    <string name="send_button_label">Send</string>
+
+    <string name="action_logout">Log Out</string>
+    <string name="start_typing">Start typing</string>
+
+
+</resources>

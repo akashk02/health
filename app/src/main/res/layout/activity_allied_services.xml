@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/personal_care"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:tint="#6F000000"
+            android:src="@drawable/personal_care"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Care"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/icu"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:tint="#6F000000"
+            android:src="@drawable/icu"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ICU At Home"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/nutrition"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:tint="#6F000000"
+            android:src="@drawable/nutrition"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutrition"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/mobility"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:tint="#6F000000"
+            android:src="@drawable/wheelchair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobility"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

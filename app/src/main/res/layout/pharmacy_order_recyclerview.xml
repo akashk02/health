@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="PATIENTS ORDER DETAILS"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Pharmacy Name"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/pharmacy_name"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="4"
+                        android:text="5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Consultation Type"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/lab_consultation_type"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="4"
+                        android:text="Magnetic resonance imaging (MRI)" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Order Status"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/pharmacy_order_status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="4"
+                        android:text="Haematology" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Order Date"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/pharmacy_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="4"
+                        android:text="RS 8000"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Time"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/pharmacy_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="4"
+                        android:text="09.00 am"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/total_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Total Amount"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/pharmacy_total_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="4"
+                        android:text="RS 500" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/pharmacy_view_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#F44336"
+                    android:text="View Details"
+                    android:textColor="@color/white" />
+
+
+
+                    <Button
+                        android:id="@+id/pharmacy_view_quotation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="#F44336"
+                        android:text="View Quotation"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/no_quote_received"
+                        android:layout_alignParentRight="true"
+                        android:padding="8dp"
+                        android:textSize="16sp"
+                        android:textColor="#F44336"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Quote Received"/>
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>

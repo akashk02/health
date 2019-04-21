@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        android:orientation="vertical"
+        tools:context=".patient_details">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Lab Details"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name" />
+
+                    <TextView
+                        android:id="@+id/lab_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abhishek Gupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address" />
+
+                    <TextView
+                        android:id="@+id/lab_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abhishek Gupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="City" />
+
+                    <TextView
+                        android:id="@+id/lab_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abhishek Gupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="State" />
+
+                    <TextView
+                        android:id="@+id/lab_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abhishek Gupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Appointment Details"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Appointment Status" />
+
+                    <TextView
+                        android:id="@+id/lab_appointment_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abhishek Gupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Appointment Date" />
+
+                    <TextView
+                        android:id="@+id/lab_appointment_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="18/04/18"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Appointment Time" />
+
+                    <TextView
+                        android:id="@+id/lab_appointment_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5:00 pm"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Appointment Type" />
+
+                    <TextView
+                        android:id="@+id/lab_appointment_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abhishek Gupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Patient Details"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name" />
+
+                    <TextView
+                        android:id="@+id/patient_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abhishek Gupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Age" />
+
+                    <TextView
+                        android:id="@+id/patient_age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Numkber" />
+
+                    <TextView
+                        android:id="@+id/patient_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9025154545"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email Id" />
+
+                    <TextView
+                        android:id="@+id/patient_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="akash@gmail.com"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gender" />
+
+                    <TextView
+                        android:id="@+id/patient_gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address" />
+
+                    <TextView
+                        android:id="@+id/patient_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="303,Raj ratna park,Brahmand"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area/Locality" />
+
+                    <TextView
+                        android:id="@+id/patient_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ghodbunder road"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Landmark" />
+
+                    <TextView
+                        android:id="@+id/patient_landmark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Thane"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pincode" />
+
+                    <TextView
+                        android:id="@+id/patient_pincode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="400607"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/tests_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Tests"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/tests_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/patient_test1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Electrocardiogram (ECG)"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/test2_LL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/patient_test2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Magnetic resonance imaging (MRI)"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/test3_LL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/patient_test3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ETP Blood"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/test4_LL"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/patient_test4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sugar Test"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#BDBDBD"
+                        android:paddingTop="2dp" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/view_all_tests"
+                    android:layout_weight="1"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:backgroundTint="#F44336"
+                    android:text="View All tests"
+                    android:textColor="#FFFFFF" />
+
+
+                <Button
+
+                    android:id="@+id/view_prescription_button"
+                    android:layout_weight="1"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:backgroundTint="#F44336"
+                    android:text="View Prescription"
+                    android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

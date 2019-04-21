@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            tools:context="com.sourcey.patient.schedule"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/e_select_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:hint="Select Date"
+                    >
+
+                </AutoCompleteTextView>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                >
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/e_time_slot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:hint="Select Time Slot"
+                    >
+
+                </AutoCompleteTextView>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText android:id="@+id/e_patients_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Patient's name" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText android:id="@+id/e_patients_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="10"
+                    android:inputType="number"
+                    android:hint="Patient's mobile *" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                >
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/e_patient_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:hint="Email*"
+                    >
+                </AutoCompleteTextView>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/e_appointment_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Appointment Type" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                >
+                <EditText android:id="@+id/date_of_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="gone"
+                    android:hint="Date Of Birth" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <EditText
+
+                android:id="@+id/e_add_notes_to_doc"
+
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="15dp"
+
+                android:layout_marginBottom="20dp"
+
+                android:layout_marginRight="15dp"
+
+                android:background="@drawable/edit_text_style"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="100dp"
+
+                android:ellipsize="start"
+
+                android:gravity="top|left"
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dp"
+
+                android:hint="Add notes to  doctor"
+
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+
+
+                />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/submit123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F44336"
+                android:textColor="#FFFFFF"
+                android:text="submit"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>
